@@ -60,9 +60,9 @@ kadai-a() {
 }
 
 kadai-b() {
-    if [ -d kadai-bcde ]; then
-        cp -r kadai-bcde $dir
-        pushd $dir/kadai-bcde > /dev/null 2>&1
+    if [ -d kadai-bcd ]; then
+        cp -r kadai-bcd $dir
+        pushd $dir/kadai-bcd > /dev/null 2>&1
 
         if [ ! -f Makefile ]; then
             warn "kadai-b: Missing Makefile"
@@ -107,7 +107,7 @@ kadai-b() {
 
         popd > /dev/null 2>&1
     else
-        warn "kadai-b: No 'kadai-bcde' directory"
+        warn "kadai-b: No 'kadai-bcd' directory"
     fi
 }
 
@@ -122,9 +122,9 @@ END
 }
 
 kadai-c() {
-    if [ -d kadai-bcde ]; then
-        cp -r kadai-bcde $dir
-        pushd $dir/kadai-bcde > /dev/null 2>&1
+    if [ -d kadai-bcd ]; then
+        cp -r kadai-bcd $dir
+        pushd $dir/kadai-bcd > /dev/null 2>&1
 
         if [ ! -f Makefile ]; then
             warn "kadai-c: Missing Makefile"
@@ -158,7 +158,7 @@ kadai-c() {
 
         popd > /dev/null 2>&1
     else
-        warn "kadai-c: No 'kadai-bcde' directory"
+        warn "kadai-c: No 'kadai-bcd' directory"
     fi
 }
 
@@ -200,9 +200,9 @@ END
 }
 
 kadai-d() {
-    if [ -d kadai-bcde ] && [ -f kadai-bcde/report-d.txt ]; then
-        cp -r kadai-bcde $dir
-        pushd $dir/kadai-bcde > /dev/null 2>&1
+    if [ -d kadai-bcd ] && [ -f kadai-bcd/report-d.txt ]; then
+        cp -r kadai-bcd $dir
+        pushd $dir/kadai-bcd > /dev/null 2>&1
 
         if [ ! -f Makefile ]; then
             warn "kadai-d: Missing Makefile"
