@@ -1,5 +1,5 @@
 #!/bin/bash
-# Test code for syspro2024 kadai5
+# Test code for syspro2024 kadai4
 # Written by Shinichi Awamoto and Daichi Morita
 # Edited by Momoko Shiraishi
 
